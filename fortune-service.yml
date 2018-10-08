@@ -14,4 +14,4 @@ spring:
 
 fortune-service:
   failure:
-    latency: 100
+    latency: 750
