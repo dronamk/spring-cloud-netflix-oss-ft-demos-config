@@ -7,14 +7,6 @@ logging:
         cloud:
           sleuth: INFO
 
-spring:
-  cloud:
-    services:
-      registrationMethod: direct
-  zipkin:
-    sender:
-      type: rabbit
-
 fortune-service:
   failure:
-    latency: 750
+    latency: 10
