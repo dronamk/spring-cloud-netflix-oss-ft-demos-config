@@ -9,7 +9,7 @@ logging:
 
 spring:
   cloud:
-    service:
+    services:
       registrationMethod: direct
   zipkin:
     sender:
