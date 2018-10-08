@@ -9,11 +9,6 @@ management:
       show-details: always
 
 spring:
-  cloud:
-    service:
-      registrationMethod: direct
-
-spring:
   autoconfigure:
     exclude:
       - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
