@@ -14,9 +14,6 @@ spring:
   cloud:
     loadbalancer:
       retry: true
-  zipkin:
-    sender:
-      type: rabbit
 
 fortune-service:
   ribbon:

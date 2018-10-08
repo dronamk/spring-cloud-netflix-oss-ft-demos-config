@@ -13,6 +13,12 @@ spring:
     exclude:
       - org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
       - org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration
+  cloud:
+    services:
+      registrationMethod: direct
+  zipkin:
+    sender:
+      type: rabbit
 
 # management:
 #   security:
