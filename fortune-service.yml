@@ -9,4 +9,4 @@ logging:
 
 fortune-service:
   failure:
-    latency: 10
+    latency: 750
